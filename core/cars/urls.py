@@ -4,8 +4,11 @@ from django.urls import path
 from core.views import *
 
 urlpatterns = [
-    path('', asosiy),
-    path('Mevalar/', Sabzilar),
-    path('Sabzilar/',sabzavotlar),
-    path('Mevalarr/',Mevalar)
+    path('', Nexia),
+    path('Bmw/', Bmw),
+    path('Mers/',Mers),
+    path('Rovseroyse/',Rovseroyse),
+    path('Ferari/',Ferari),
+    path('Tesla/',Tesla),
+    path('Bugatti/',Bugatti),
 ]
